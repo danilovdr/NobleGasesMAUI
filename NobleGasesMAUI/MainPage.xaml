@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NobleGasesMAUI.MainPage">
+
+    <StackLayout>
+        <Grid
+            Margin="30, 0, 0, 0"
+            RowSpacing="30"
+            ColumnSpacing="10"
+        >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+            <StackLayout
+                Grid.Column="0"
+                Grid.Row="0"
+            >
+                <ImageButton
+                    HeightRequest="100"
+                    WidthRequest="100"
+                    Source="helium.png"
+                    CornerRadius="5"
+                    x:Name="helium"
+                    Clicked="OnClickElement"
+                />
+                <Label 
+                    Text="Helium"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Margin="10, 0, 0, 0"
+                    FontSize="14"
+                    FontAttributes="Bold"
+                />
+            </StackLayout>
+
+            <StackLayout
+                Grid.Column="1"
+                Grid.Row="0"
+            >
+                <ImageButton
+                    Source="neon.png"
+                    HeightRequest="100"
+                    WidthRequest="100"
+                    CornerRadius="5"
+                    x:Name="neon"
+                    Clicked="OnClickElement"
+                    
+                />
+                <Label 
+                    Text="Neon"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Margin="10, 0, 0, 0"
+                    FontSize="14"
+                    FontAttributes="Bold"
+                />
+            </StackLayout>
+
+            <StackLayout
+                Grid.Column="2"
+                Grid.Row="0"
+            >
+                <ImageButton
+                    
+                    Source="argon.png"
+                    HeightRequest="100"
+                    WidthRequest="100"
+                    CornerRadius="5"
+                    x:Name="argon"
+                    Clicked="OnClickElement"
+                />
+                <Label 
+                    Text="Argon"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Margin="10, 0, 0, 0"
+                    FontSize="14"
+                    FontAttributes="Bold"
+                />
+            </StackLayout>
+
+            <StackLayout
+                Grid.Column="0"
+                Grid.Row="1"
+            >
+                <ImageButton
+                    Source="krypton.png"
+                    HeightRequest="100"
+                    WidthRequest="100"
+                    CornerRadius="5"
+                    x:Name="krypton"
+                    Clicked="OnClickElement"
+                />
+                <Label 
+                    Text="Krypton"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Margin="10, 0, 0, 0"
+                    FontSize="14"
+                    FontAttributes="Bold"
+                />
+            </StackLayout>
+
+            <StackLayout
+                Grid.Column="1"
+                Grid.Row="1"
+            >
+                <ImageButton
+                    Source="xenon.png"
+                    HeightRequest="100"
+                    WidthRequest="100"
+                    CornerRadius="5"
+                    x:Name="xenon"
+                    Clicked="OnClickElement"
+                />
+                <Label 
+                    Text="Xenon"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Margin="10, 0, 0, 0"
+                    FontSize="14"
+                    FontAttributes="Bold"
+                />
+            </StackLayout>
+
+            <StackLayout
+                Grid.Column="2"
+                Grid.Row="1"    
+            >
+                <ImageButton
+                    Source="radon.png"
+                    HeightRequest="100"
+                    WidthRequest="100"
+                    CornerRadius="5"
+                    x:Name="radon"
+                    Clicked="OnClickElement"
+                />
+                <Label 
+                    Text="Radon"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Margin="10, 0, 0, 0"
+                    FontSize="14"
+                    FontAttributes="Bold"
+                />
+            </StackLayout>
+
+        </Grid>
+    </StackLayout>
+</ContentPage>
