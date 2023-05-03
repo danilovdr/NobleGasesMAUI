@@ -39,7 +39,6 @@
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
-		<MauiImage Update="Resources\Images\dotnet_bot.svg" BaseSize="168,208" />
 
 		<!-- Custom Fonts -->
 		<MauiFont Include="Resources\Fonts\*" />
@@ -58,9 +57,40 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Elements\Helium.xaml">
+	  <MauiXaml Update="Elements\Helium\HeliumPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiImage Include="Resources\Images\MainPage\argon.png" />
+	  <MauiImage Include="Resources\Images\MainPage\helium.png" />
+	  <MauiImage Include="Resources\Images\MainPage\krypton.png" />
+	  <MauiImage Include="Resources\Images\MainPage\neon.png" />
+	  <MauiImage Include="Resources\Images\MainPage\radon.png" />
+	  <MauiImage Include="Resources\Images\MainPage\xenon.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="Elements\Helium\Helium.Designer.cs">
+	    <DesignTime>True</DesignTime>
+	    <AutoGen>True</AutoGen>
+	    <DependentUpon>Helium.resx</DependentUpon>
+	  </Compile>
+	  <Compile Update="Elements\Helium\HeliumPage.xaml.cs">
+	    <DependentUpon>HeliumPage.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Update="Elements\Helium\Helium.resx">
+	    <Generator>PublicResXFileCodeGenerator</Generator>
+	    <LastGenOutput>Helium.Designer.cs</LastGenOutput>
+	  </EmbeddedResource>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Resources\Localization\" />
 	</ItemGroup>
 
 </Project>

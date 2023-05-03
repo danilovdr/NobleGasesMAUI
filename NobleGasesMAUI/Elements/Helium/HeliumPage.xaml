@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NobleGasesMAUI.Elements.Helium.HeliumPage"
+             xmlns:local="clr-namespace:NobleGasesMAUI.Elements.Helium" 
+             Title="Helium">
+
+    <ScrollView>
+        <StackLayout>
+            <Border Margin="20">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="20" />
+                </Border.StrokeShape>
+                <Image Source="helium_ai" />
+            </Border>
+
+            <Label 
+                Text="Гелий"
+                FontFamily="RobotoBold"
+                FontSize="20"
+                VerticalOptions="Center"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="{x:Static local:Helium.HeliumMainDescription}"
+                FontFamily="RobotoRegular"
+                Margin="20"
+                FontSize="16" />
+
+            <Label 
+                Text="История открытия"
+                FontFamily="RobotoBold"
+                FontSize="20"
+                VerticalOptions="Center"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="{x:Static local:Helium.HeliumHistory}"
+                FontFamily="RobotoRegular"
+                Margin="20"
+                FontSize="16" />
+
+            <Label 
+                Text="Распространение в природе"
+                FontFamily="RobotoBold"
+                FontSize="20"
+                VerticalOptions="Center"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="{x:Static local:Helium.HeliumSpread}"
+                FontFamily="RobotoRegular"
+                Margin="20"
+                FontSize="16" />
+
+            <Label 
+                Text="Изотопы"
+                FontFamily="RobotoBold"
+                FontSize="20"
+                VerticalOptions="Center"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="{x:Static local:Helium.HeliumIsotopes}"
+                FontFamily="RobotoRegular"
+                Margin="20"
+                FontSize="16" />
+
+            <Label 
+                Text="Физические свойства гелия"
+                FontFamily="RobotoBold"
+                FontSize="20"
+                VerticalOptions="Center"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="{x:Static local:Helium.HeliumPhysicalProperties}"
+                FontFamily="RobotoRegular"
+                Margin="20"
+                FontSize="16" />
+
+            <Label 
+                Text="Процесс получения"
+                FontFamily="RobotoBold"
+                FontSize="20"
+                VerticalOptions="Center"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="{x:Static local:Helium.HeliumProduction}"
+                FontFamily="RobotoRegular"
+                Margin="20"
+                FontSize="16" />
+
+            <Label 
+                Text="Сферы применения"
+                FontFamily="RobotoBold"
+                FontSize="20"
+                VerticalOptions="Center"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="{x:Static local:Helium.HeliumApplications}"
+                FontFamily="RobotoRegular"
+                Margin="20"
+                FontSize="16" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="HeliumApplications" xml:space="preserve">
+    <value>Благородный газ нашел применение в разных областях. 
+
+Гелий, свойства которого позволяют получать сверхнизкие температуры, используется как охлаждающий агент в Большом адронном коллайдере, сверхпроводящих магнитах аппаратов МРТ и спектрометров ядерного магнитного резонанса, спутниковой аппаратуры, а также для сжижения кислорода и водорода в ракетах «Аполлон». 
+
+В качестве инертного газа для сварки алюминия и др. металлов, при производстве оптоволокна и полупроводников. 
+
+Для создания давления в топливных баках ракетных двигателей, особенно тех, которые работают на жидком водороде, т. к. только гелий газообразный сохраняет свое агрегатное состояние, когда водород остается жидким); 
+
+He-Ne газовые лазеры используются для сканирования штрих-кодов на кассах в супермаркетах. 
+Гелий-ионный микроскоп позволяет получить лучшие изображения, чем электронный. 
+
+Благодаря высокой проницаемости благородный газ используется для проверки утечек, например, в системах кондиционирования воздуха автомобилей, а также для быстрого наполнения подушек безопасности при столкновении. 
+
+Низкая плотность позволяет наполнять декоративные шары с гелием. Инертный газ заменил взрывоопасный водород в дирижаблях и воздушных шарах. Например, в метеорологии, шары с гелием используются для подъема измерительных приборов. 
+
+В криогенной технике служит теплоносителем, поскольку температура этого химического элемента в жидком состоянии минимально возможная. 
+
+Гелий, свойства которого обеспечивают ему низкую реактивность и растворимость в воде (и крови), в смеси с кислородом нашел применение в дыхательных составах для подводного плавания с аквалангом и проведения кессонных работ. 
+Метеориты и горные породы анализируются на содержание данного элемента для определения их возраста.</value>
+  </data>
+  <data name="HeliumHistory" xml:space="preserve">
+    <value>Гелий был найден в газовой атмосфере, окружающей Солнце, французским астрономом Пьером Жансеном, который в 1868 году во время затмения обнаружил яркую желтую линию в спектре солнечной хромосферы. Первоначально предполагалось, что эта линия представляла элемент натрий. В том же году английский астроном Джозеф Норман Локьер наблюдал желтую линию в солнечном спектре, которая не соответствовала известным линиям натрия D1 и D2, и поэтому он назвал ее линией D3. Локьер пришел к выводу, что она была вызвана веществом на Солнце, неизвестном на Земле. Он и химик Эдуард Франкленд в названии элемента использовали греческое название Солнца «гелиос». В 1895 году британский химик сэр Уильям Рамзай доказал существование гелия на Земле. Он получил образец ураноносного минерала клевеита, и после исследования газов, образовавшихся при его нагреве, он обнаружил, что ярко-желтая линия в спектре совпадает с линией D3, наблюдаемой в спектре Солнца. Таким образом, новый элемент был окончательно установлен. В 1903 году Рамзи и Фредерик Содду определили, что гелий является продуктом спонтанного распада радиоактивных веществ.</value>
+  </data>
+  <data name="HeliumIsotopes" xml:space="preserve">
+    <value>Ядро каждого атома гелия содержит два протона, но, как и у других элементов, у него есть изотопы. Они содержат от одного до шести нейтронов, поэтому их массовые числа находятся в диапазоне от трех до восьми. Стабильными из них являются элементы, у которых масса гелия определяется атомными числами 3 (3He) и 4 (4He). Все остальные радиоактивны и очень быстро распадаются на другие вещества. Земной гелий не является изначальной составляющей планеты, он образовался в результате радиоактивного распада. Альфа-частицы, испускаемые ядрами тяжелых радиоактивных веществ, представляют собой ядра изотопа 4He. Гелий не накапливается в больших количествах в атмосфере, потому что гравитации Земли недостаточно, чтобы предотвратить его постепенную утечку в космос. Следы 3He на Земле объясняются отрицательным бета-распадом редкого элемента водорода-3 (трития). 4He является наиболее распространенным из стабильных изотопов: соотношение числа атомов 4He к 3He составляет около 700 тыс. к 1 в атмосфере и около 7 млн к 1 в некоторых гелийсодержащих минералах.</value>
+  </data>
+  <data name="HeliumMainDescription" xml:space="preserve">
+    <value>Гелий – инертный газ 18-й группы периодической таблицы. Это второй самый легкий элемент после водорода. Гелий – газ без цвета, запаха и вкуса, который становится жидким при температуре -268.9 °C. Точки кипения и замерзания его ниже, чем у любого другого известного вещества. Это единственный элемент, который не затвердевает при охлаждении при нормальном атмосферном давлении. Чтобы гелий перешел в твердое состояние, необходимо 25 атмосфер при температуре 1 К.</value>
+  </data>
+  <data name="HeliumPhysicalProperties" xml:space="preserve">
+    <value>Температура кипения и плавления у этого элемента самые низкие. По этой причине гелий существует в виде газа, за исключением экстремальных условий. Газообразный He в воде растворяется меньше, чем какой-либо другой газ, а скорость диффузии через твердые тела в три раза больше, чем у воздуха. Его показатель преломления ближе всего приближается к 1. Теплопроводность гелия уступает лишь теплопроводности водорода, а его удельная теплоемкость необычайно высокая. При обычных температурах при расширении он нагревается, а ниже 40 K – охлаждается. Поэтому при Т&lt;40 K гелий можно превратить в жидкость путем расширения. Элемент является диэлектриком, если не находится в ионизированном состоянии. Как и у других благородных газов, у гелия есть метастабильные энергетические уровни, которые позволяют ему оставаться ионизированным в электрическом разряде, когда напряжение остается ниже потенциала ионизации. Гелий-4 уникален тем, что обладает двумя жидкими формами. Обычная называется гелий I и существует при температурах от точки кипения 4,21 К (-268,9 °C) до около 2,18 К (-271 °C). Ниже 2,18 K теплопроводность 4He становится в 1000 раз больше, чем у меди. Эта форма называется гелий II, чтобы отличить ее от обычной. Она обладает сверхтекучестью: вязкость настолько низкая, что не может быть измерена. Гелий II растекается в тонкую пленку на поверхности любого вещества, которого касается, и эта пленка течет без трения даже против силы тяжести. 
+
+Менее обильный гелий-3 образует три различные жидкие фазы, две из которых сверхтекучи. Сверхтекучесть в 4He была обнаружена советским физиком Петром Леонидовичем Капицей в середине 1930-х годов, и такое же явление в 3He было впервые замечено Дугласом Д. Ошеровым, Дэвидом М. Ли, и Робертом С. Ричардсоном из США в 1972 году. Жидкая смесь двух изотопов гелия-3 и -4 при температурах ниже 0,8 К (-272.4 °C) разделяется на два слоя – практически чистого 3He и смеси 4He с 6% гелия-3. Растворение 3He в 4He сопровождается охлаждающим эффектом, который используется в конструкции криостатов, в которых температура гелия опускается ниже 0,01 К (-273,14 °C) и поддерживается такой в течение нескольких дней.</value>
+  </data>
+  <data name="HeliumProduction" xml:space="preserve">
+    <value>Гелий (чистотой 98,2%) выделяют из природного газа путем сжижения других компонентов при низких температурах и при высоких давлениях. Адсорбция других газов охлажденным активированным углем позволяет добиться чистоты 99,995%. Небольшой объем гелия производится при сжижении воздуха в больших масштабах. Из 900 т воздуха можно получить около 3,17 куб. м газа.</value>
+  </data>
+  <data name="HeliumSpread" xml:space="preserve">
+    <value>Масса гелия составляет около 23% всей массы Вселенной, и элемент является вторым по распространенности в космосе. Он сосредоточен в звездах, где образуется из водорода в результате термоядерного синтеза. Хотя в земной атмосфере гелий находится в концентрации 1 часть на 200 тыс. (5 промилле) и в небольших количествах содержится в радиоактивных минералах, метеоритном железе, а также в минеральных источниках, большие объемы элемента встречаются в Соединенных Штатах (особенно в Техасе, Нью-Мексико, Канзасе, Оклахоме, Аризоне и Юте) в качестве компонента (до 7,6%) природного газа. Небольшие его запасы были обнаружены в Австралии, Алжире, Польше, Катаре и России. В земной коре концентрация гелия равна лишь около 8 частей на миллиард.</value>
+  </data>
+</root>
