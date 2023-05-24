@@ -1,5 +1,6 @@
 ﻿using NobleGasesMAUI.Elements;
 using NobleGasesMAUI.Elements.Helium;
+using NobleGasesMAUI.Elements.Neon;
 
 namespace NobleGasesMAUI;
 
@@ -10,9 +11,14 @@ public partial class MainPage : ContentPage
 		InitializeComponent();
 	}
 
-	private async void OnClickElement(object sender, EventArgs e)
+	private async void OnClickHelium(object sender, EventArgs e)
 	{
 		await Navigation.PushAsync(new HeliumPage());
+	}
+
+	private async void OnClickNeon(object sender, EventArgs e)
+	{
+		await Navigation.PushAsync(new NeonPage());
 	}
 }
 

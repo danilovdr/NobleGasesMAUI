@@ -50,14 +50,20 @@
 	<ItemGroup>
 	  <None Remove="Resources\Images\argon.png" />
 	  <None Remove="Resources\Images\helium.png" />
+	  <None Remove="Resources\Images\helium_structure.jpg" />
 	  <None Remove="Resources\Images\krypton.png" />
 	  <None Remove="Resources\Images\neon.png" />
+	  <None Remove="Resources\Images\neon_icon.jpg" />
+	  <None Remove="Resources\Images\neon_structure.jpg" />
 	  <None Remove="Resources\Images\radon.png" />
 	  <None Remove="Resources\Images\xenon.png" />
 	</ItemGroup>
 
 	<ItemGroup>
 	  <MauiXaml Update="Elements\Helium\HeliumPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Elements\Neon\NeonPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
@@ -80,12 +86,22 @@
 	  <Compile Update="Elements\Helium\HeliumPage.xaml.cs">
 	    <DependentUpon>HeliumPage.xaml</DependentUpon>
 	  </Compile>
+	  <Compile Update="Elements\Neon\Neon.Designer.cs">
+	    <DependentUpon>Neon.resx</DependentUpon>
+	    <DesignTime>True</DesignTime>
+	    <AutoGen>True</AutoGen>
+	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
 	  <EmbeddedResource Update="Elements\Helium\Helium.resx">
 	    <Generator>PublicResXFileCodeGenerator</Generator>
 	    <LastGenOutput>Helium.Designer.cs</LastGenOutput>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Elements\Neon\Neon.resx">
+	    <SubType>Designer</SubType>
+	    <LastGenOutput>Neon.Designer.cs</LastGenOutput>
+	    <Generator>PublicResXFileCodeGenerator</Generator>
 	  </EmbeddedResource>
 	</ItemGroup>
 
